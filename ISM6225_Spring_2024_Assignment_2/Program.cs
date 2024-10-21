@@ -253,7 +253,7 @@ namespace Assignment_2
                 int left = 0;
                 int right = nums.Length - 1;
 
-                // If the array is not rotated, return the first element
+                // If the array is not rotated, then return the first element
                 if (nums[left] < nums[right])
                     return nums[left];
 
