@@ -272,7 +272,7 @@ namespace Assignment_2
                     if (nums[mid - 1] > nums[mid])
                         return nums[mid];
 
-                    // If the left half is sorted, the minimum is in the right half
+                    // If the left half is sorted, then the minimum is in the right half
                     if (nums[left] < nums[mid])
                         left = mid + 1;
 
